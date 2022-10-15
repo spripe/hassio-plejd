@@ -149,7 +149,7 @@ class MqttClient extends EventEmitter {
     logger.info('Initializing MQTT connection for Plejd addon');
 
     this.client = mqtt.connect(this.config.mqttBroker, {
-      clientId: `hassio-plejd_${Math.random().toString(16).substr(2, 8)}`,
+      clientId: `hassio-plejd`,
       password: this.config.mqttPassword,
       protocolVersion: 4, // v5 not supported by HassIO Mosquitto
       queueQoSZero: true,
