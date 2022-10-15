@@ -1,4 +1,4 @@
-# Hass.io Plejd add-on repository
+# Customized Hass.io Plejd add-on repository
 
 Hass.io add-on for Plejd home automation devices. Gives you the ability to control the Plejd home automation devices through Home Assistant.
 It uses MQTT to communicate with Home Assistant and supports auto discovery of the devices in range.
