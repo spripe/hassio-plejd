@@ -61,8 +61,8 @@ LABEL \
   org.label-schema.description="Adds support for the Swedish home automation devices from Plejd." \
   org.label-schema.build-date=${BUILD_DATE} \
   org.label-schema.name="Plejd" \
-  org.label-schema.schema-version="1.0" \
-  org.label-schema.usage="https://github.com/icanos/hassio-plejd/tree/master/README.md" \
+  org.label-schema.schema-version="1.1" \
+  org.label-schema.usage="https://github.com/spripe/hassio-plejd/tree/master/README.md" \
   org.label-schema.vcs-ref=${BUILD_REF} \
-  org.label-schema.vcs-url="https://github.com/icanos/hassio-plejd"
+  org.label-schema.vcs-url="https://github.com/spripe/hassio-plejd"
   
