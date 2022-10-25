@@ -101,9 +101,9 @@ class PlejdAddon extends EventEmitter {
             // since the switch doesn't get any updates on whether it's on or not,
             // we fake this by directly send the updateState back to HA in order for
             // it to change state.
-            //this.mqttClient.updateOutputState(uniqueId, {
-            //  state,
-            //});
+            this.mqttClient.updateOutputState(uniqueId, {
+              state,
+            });
           } else {
             // eslint-disable-next-line prefer-destructuring
             state = command.state === 'ON';
