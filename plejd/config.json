@@ -1,6 +1,6 @@
 {
   "name": "Plejd",
-  "version": "1.1",
+  "version": "1.2",
   "slug": "plejd",
   "description": "Adds support for the Swedish home automation devices from Plejd.",
   "url": "https://github.com/spripe/hassio-plejd/",
@@ -20,7 +20,7 @@
     "includeRoomsAsLights": false,
     "preferCachedApiResponse": false,
     "updatePlejdClock": false,
-    "logLevel": "info",
+    "logLevel": "debug",
     "connectionTimeout": 2,
     "writeQueueWaitTime": 400
   },
