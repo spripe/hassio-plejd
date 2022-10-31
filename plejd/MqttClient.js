@@ -4,7 +4,7 @@ const mqtt = require('mqtt');
 const Configuration = require('./Configuration');
 const Logger = require('./Logger');
 
-const startTopics = ['hass/xstatus', 'homeassistant/xstatus'];
+const startTopics = ['hass/status', 'homeassistant/status'];
 
 const logger = Logger.getLogger('plejd-mqtt');
 
